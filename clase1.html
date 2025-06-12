@@ -1,0 +1,82 @@
+<DOCUMENTTYPE HTML>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head> 
+<body>
+	<!-- minlength anc maxlength attributes -->
+	<div>
+		<form method="post" action="/send/">
+			Usuario
+			<input type="text" name="username" placeholder="Por ejemplo, Juan" minlength="5" maxlength="40">
+			Password
+			<input type="password" name="password" placeholder="Contraseña" minlength="11">
+		</form>
+	</div>
+	
+	<!-- min and max attributes -->
+	<div>
+		<form method="post" action="/send/">
+			Edad
+			<input type="number" name="age" placeholder="25" min="18" max="60">
+			Fecha de inicio:
+			<input type="date" name="date" placeholder="2024-07-22" min="2024-01-01" max="2024-12-01">
+			<!-- look: that placeholder attribute doesn't work on inputs of type date -->
+		</form>
+	</div>
+
+	<!-- step attribute -->
+	<div>
+		<form method="post" action="/send/">
+			Edad
+			<input type="number" name="age" placeholder="25" min="18" max="60" step="2"> 
+			Fecha de inicio:
+			<input type="date" name="date" placeholder="2024-07-22" min="2024-01-01" max="2024-12-01" step="2">
+			<!-- note: the steps only apply on the days -->
+		</form>
+	</div>
+
+	<!-- required attribute -->
+	<div>
+		<form method="post" action="/send/">
+			Nombre
+			<input type="text" name="username" required> 
+		</form>
+	</div>
+
+	<!-- disabled attribute -->
+	<div>
+		<form method="post" action="/send/">
+			Nombre
+			<input type="text" name="username" disabled>
+			<input type="submit" disabled> 
+		</form>
+	</div>
+
+	<!-- readonly attribute -->
+	<div>
+		<form method="post" action="/send/">
+			Nombre
+			<input type="text" name="username" readonly>
+			<input type="submit"> 
+		</form>
+	</div>
+
+	<!-- pattern attribute -->
+	<div>
+		<form method="post" action="/send/">
+		<br>con atributos maxlength and minlength <br>
+		<input type="text" name="username" placeholder="ManzDev" minlength="5" maxlength="40" required pattern="[A-Za-z0-9]+">
+		<br>con sin atributo maxlength or minlength<br>
+		<input type="text" name="username" placeholder="ManzDev" required pattern="[A-Za-z0-9]{3,40}">
+		<!-- the difference between these tow is that the one who uses maxlength doesn't allow to insert more characters above the allowed, but both verify the number of characters be the specified -->
+		</form>
+	</div>
+
+	<!-- pattern title -->
+	<div>
+		<form method="post" action="/send/">
+		<br>personalizamos el mensaje de advertencia si el boton de subir esta presente y no se pasa la verificacion del pattern<br>
+		<input type="text" name="username" placeholder="ManzDev" required pattern="[A-Za-z0-9]{3,40}" title="Letras y numeros. Tamanio:5-40">
+		</form>
+	</div>
+</body>

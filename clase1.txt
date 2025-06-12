@@ -1,0 +1,43 @@
+clase1.txt
+apuntes
+
+parametreos
+normas de cnjducta
+	llega antes
+	hablo atiende
+	oooolvidense de copiar¨. 
+	"aprender para la vida no para..." = aqui no vamos a copiar, vamos a hacer.
+	...examen 2 3 presentar proyectos
+	...vamos a trabajar con laboratorios hechos
+iniciar formularios
+parte del front, las cajas y grind....
+-su experiencia, desarrollo con software libre. govieno, ministerio
+experiencia- curso de verano-poo-
+	consentrense en aprender no aprobar
+
+Juan marcos Miranda Lina- tiene un doctorado 
+
+AUX- no va haber otro horario
+el projecto siempre es en Riat.
+
+licevamos a dividir el curso en grupos
+somos aprox 145
+dividimos a 75
+grupos A y B
+un grupo un dia el otro, no fijo, puede cambiar, ustedes deben estar disponibles culauqiera de esos dia.
+en el examen va a ser para todos el mismo dia.
+sin tus hojas no entras
+
+labs valen 10pts, todas las firmas valen eso.
+
+¡¡¡¡¡¡¡¡¡¡¡
+
+esta parte es de html y css
+
+
+tenemos que tomar en cuenta que hay personas con dos nombres, el campo debe ser grande para el nombre
+bloque-nicho
+
+consejos
+no copiar, hacer
+aprender a abstraer
